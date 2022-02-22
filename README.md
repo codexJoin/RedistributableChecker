@@ -2,7 +2,8 @@
 
 * [General info](#general-info)
 * [Packages](#technologies)
-* [Setup](#setup)
+* [Usage](#setup)
+* [Insallation](#install)
 
 ## General info
 An updated version of bitbeans' Redistributable Checker. Check if Microsoft Visual C++ Redistributable Packages are installed.
@@ -26,8 +27,8 @@ Can check for the following packages:
 > Microsoft Visual C++ Redistributable Package 2005 (x86) ✔️  
 > Microsoft Visual C++ Redistributable Package 2005 (x64) ✔️  
 	
-## Setup
-To run this project, install it locally using npm:
+## Usage
+To use this project, do the following:
 
 ```csharp
 using RedistributableChecker;
@@ -35,4 +36,9 @@ using RedistributableChecker;
 if (RedistributablePackage.IsInstalled(RedistributablePackageVersion.VC2013x64)) {
   //go on
 }
+```
+
+## Installation
+```
+Install-Package RedistributableChecker2022 -Version 0.2.3
 ```
