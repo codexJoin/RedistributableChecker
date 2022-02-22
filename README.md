@@ -9,7 +9,7 @@ An updated version of bitbeans' Redistributable Checker. Check if Microsoft Visu
 	
 ## Packages
 Can check for the following packages:
-> Microsoft Visual C++ Redistributable Package 2015 - 2019 (x86) ✔️
+> Microsoft Visual C++ Redistributable Package 2015 - 2019 (x86) ✔️  
 > Microsoft Visual C++ Redistributable Package 2015 - 2019 (x64) ✔️
 > Microsoft Visual C++ Redistributable Package 2017 (x86) ✔️
 > Microsoft Visual C++ Redistributable Package 2017 (x64) ✔️
